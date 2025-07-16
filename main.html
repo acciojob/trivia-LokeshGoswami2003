@@ -6,17 +6,17 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
   <h3>What is the capital of India?</h3>
 
   <form>
-    <input type="radio" name="capital" value="newdelhi"> New Delhi<br>
-    <input type="radio" name="capital" value="mumbai"> Mumbai
+    <label><input type="radio" name="capital" value="newdelhi" onclick="showQuote(true)"> New Delhi</label><br>
+    <label><input type="radio" name="capital" value="mumbai" onclick="showQuote(false)"> Mumbai</label>
   </form>
 
-  <blockquote class="quote">
+  <blockquote class="quote" id="capitalQuote">
     New Delhi is the capital of India and an administrative district of NCT Delhi.
   </blockquote>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
